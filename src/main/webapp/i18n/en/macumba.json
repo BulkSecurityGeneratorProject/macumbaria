@@ -1,0 +1,22 @@
+{
+    "macumbariaApp": {
+        "macumba" : {
+            "home": {
+                "title": "Macumbas",
+                "createLabel": "Create a new Macumba",
+                "createOrEditLabel": "Create or edit a Macumba",
+                "search": "Search for Macumba"
+            },
+            "created": "A new Macumba is created with identifier {{ param }}",
+            "updated": "A Macumba is updated with identifier {{ param }}",
+            "deleted": "A Macumba is deleted with identifier {{ param }}",
+            "delete": {
+                "question": "Are you sure you want to delete Macumba {{ id }}?"
+            },
+            "detail": {
+                "title": "Macumba"
+            },
+            "destinatario": "Destinatario"
+        }
+    }
+}

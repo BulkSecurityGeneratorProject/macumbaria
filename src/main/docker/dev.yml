@@ -1,0 +1,10 @@
+macumbaria-dev-postgresql:
+  container_name: macumbaria-dev-postgresql
+  image: postgres:9.4.5
+  # volumes:
+  #   - ~/volumes/jhipster/macumbaria/dev-postgresql/:/var/lib/postgresql/
+  environment:
+    - POSTGRES_USER=macumbaria
+    - POSTGRES_PASSWORD=
+  ports:
+    - "5432:5432"

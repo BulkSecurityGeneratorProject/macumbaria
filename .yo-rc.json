@@ -1,0 +1,24 @@
+{
+  "generator-jhipster": {
+    "baseName": "macumbaria",
+    "packageName": "b.com.macumbaria",
+    "packageFolder": "b/com/macumbaria",
+    "authenticationType": "session",
+    "hibernateCache": "no",
+    "clusteredHttpSession": "no",
+    "websocket": "no",
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": "no",
+    "useSass": false,
+    "buildTool": "maven",
+    "frontendBuilder": "grunt",
+    "enableTranslation": true,
+    "enableSocialSignIn": true,
+    "rememberMeKey": "889624b54a354389f35d01e435e8ab0b10cb992b",
+    "testFrameworks": [
+      "gatling"
+    ]
+  }
+}

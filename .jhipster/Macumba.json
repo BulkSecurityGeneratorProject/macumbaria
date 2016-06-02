@@ -1,0 +1,21 @@
+{
+    "relationships": [],
+    "fields": [
+        {
+            "fieldId": 1,
+            "fieldName": "destinatario",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required",
+                "minlength",
+                "maxlength"
+            ],
+            "fieldValidateRulesMinlength": "2",
+            "fieldValidateRulesMaxlength": "70"
+        }
+    ],
+    "changelogDate": "20160602141354",
+    "dto": "no",
+    "service": "serviceClass",
+    "pagination": "pagination"
+}
